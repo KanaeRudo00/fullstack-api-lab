@@ -51,7 +51,8 @@ project-root/
 ## 📬 Author
 
 **Nguyễn Vũ**  
-GitHub: [@KanaeRudo00](https://github.com/KanaeRudo00)  
+GitHub: [@KanaeRudo00](https://github.com/KanaeRudo00)
+Linkedin: [@Nguyễn Vũ](https://www.linkedin.com/in/nguy%E1%BB%85n-v%C5%A9-325a59251/)
 ---
 
 ## 📜 License
