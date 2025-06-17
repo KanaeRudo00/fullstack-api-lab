@@ -50,10 +50,8 @@ project-root/
 
 ## 📬 Author
 
-**Your Name**  
-GitHub: [@your-handle](https://github.com/your-handle)  
-Portfolio: [yourwebsite.dev](https://yourwebsite.dev)
-
+**Nguyễn Vũ**  
+GitHub: [@KanaeRudo00](https://github.com/KanaeRudo00)  
 ---
 
 ## 📜 License
