@@ -21,11 +21,11 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/${{ secrets.DOCKER_USERNAME }}/fullstack-api-lab:latest .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/fullstack-api-lab:latest .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/${{ secrets.DOCKER_USERNAME }}/fullstack-api-lab:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/fullstack-api-lab:latest
 
       - name: Deploy to Server via SSH
         uses: appleboy/ssh-action@v1.2.0
