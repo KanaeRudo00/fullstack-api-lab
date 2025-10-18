@@ -34,7 +34,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
-            docker pull ghcr.io/${{ secrets.DOCKER_USERNAME }}/fullstack-api-lab:latest
+            docker pull ${{ secrets.DOCKER_USERNAME }}/fullstack-api-lab:latest
             docker stop kanae-userman || true
             docker rm kanae-userman || true
-            docker run -d --name kanae-userman --env-file /home/kanaerudo/usermanagement/.env -p 80:9000 ghcr.io/${{ secrets.DOCKER_USERNAME }}/fullstack-api-lab:latest
+            docker run -d --name kanae-userman --env-file /home/github-deployer/usermanagement/.env -p 80:9000 ${{ secrets.DOCKER_USERNAME }}/fullstack-api-lab:latest
